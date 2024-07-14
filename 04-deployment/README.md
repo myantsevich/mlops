@@ -23,6 +23,7 @@ Install all the required libraries. Pay attention to the Scikit-Learn version: i
 After installing the libraries, pipenv creates two files: Pipfile and Pipfile.lock. The Pipfile.lock file keeps the hashes of the dependencies we use for the virtual env.
 What's the first hash for the Scikit-Learn dependency?
 I work with conda instead of pyenv, so here is just a packages list
+
 ![img_4.png](img_4.png)
 
 ## Q5. Parametrize the script
@@ -37,6 +38,7 @@ Now run the script with docker. What's the mean predicted duration for May 2023?
 ### 0.19
 
 ![img_6.png](img_6.png)
+
 Dockerfile
 ```
 FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
